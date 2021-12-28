@@ -57,6 +57,7 @@ body{
     color:black; 
     padding-left:2px;
     padding-right:2px;
+    text-decoration: underline;
 }
 .inline_text_highlight:hover{
     cursor: pointer;
