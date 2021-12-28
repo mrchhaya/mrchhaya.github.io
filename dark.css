@@ -1,0 +1,125 @@
+.bg-color{
+    background-color: #2b2d42!important;
+}
+.accent1{
+    color: #E9C46A!important;
+}
+.accent2{
+    color: #2A9D8F;
+}
+body{
+    font-family: 'Nunito', sans-serif !important;
+    color: white!important;
+}
+
+.smol{
+    font-size: larger;
+    color: white!important;
+}
+.w{
+    margin: 3em auto;
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1920px) {
+      .w{
+        margin: 3em auto;
+        max-width: 768px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10em;
+      }
+      .textstuff{
+        width: fit-content;
+        position: relative;
+        top: -10px;
+    }
+    .justthis{
+        text-align: left!important;
+    }
+    .pt-45{
+        padding-top: 2.5em;
+    }
+  }
+.justthis{
+    text-align: center;
+}
+.textstuff {
+    position: relative;
+    top: -10px;
+}
+#lessmargin{
+    margin-bottom: .3em;
+    /* font-weight: ; */
+}
+.inline_text_highlight{
+    color:black; 
+    padding-left:2px;
+    padding-right:2px;
+}
+.inline_text_highlight:hover{
+    cursor: pointer;
+}
+a{
+    color: inherit;
+    font-style: normal;
+    text-decoration: none;
+    font-family: inherit;
+}
+a:hover{
+    color:inherit;
+    font-style: normal;
+    text-decoration: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.tooltip-inner{
+    color: #000!important;
+    background-color: white!important;
+    opacity: 1!important;
+}
+
+.fa {
+    font-size: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* .ball1{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 100%;
+    transition: all 0.5s ease-in-out;
+    animation: ball1 1s forwards;
+    border: 5px solid aqua;
+    position: absolute;
+    z-index: 100;
+}
+@keyframes ball1 {
+    20%{
+        transition: all 0.5s ease-in-out;
+    }
+    25%{
+
+    }
+    30%{
+        
+    }
+    40%{
+        margin-top:300px;
+        transition: all 0.2s ease-in-out;
+    }
+    95%{
+        margin-top: 800px;
+        bottom: 1px;
+        width:20px;
+        height:20px;
+        transition:all 0.2s ease-in-out;
+    }
+    100%{
+        margin-bottom: 1000px;
+    }
+} */
