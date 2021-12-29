@@ -10,6 +10,12 @@
 body{
     font-family: 'Nunito', sans-serif !important;
 }
+@media only screen and (max-width: 767px) {
+    body {
+        cursor: pointer;
+    }
+}
+
 .smol{
     font-size: larger;
 }
