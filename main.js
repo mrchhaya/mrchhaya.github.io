@@ -2,6 +2,11 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
 
+
+$(document).ready(function() {
+    $('[data-toggle="tooltip"]').tooltip('hide')
+});
+
 const css = $("#modecss");
 const clicker = $("#darkmode");
 $("#darkmode").click(function() {
