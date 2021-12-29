@@ -3,7 +3,7 @@ $(function () {
   })
 
 
-$(document).ready(function() {
+$(window).on('pageshow', function() {
     $('[data-toggle="tooltip"]').tooltip('hide')
 });
 
