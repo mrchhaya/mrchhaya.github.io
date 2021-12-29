@@ -24,6 +24,16 @@ if(prefersDarkScheme.matches) {
     css.attr('href', 'dark.css');
     clicker.html('light.');
 } else {
-    css.attr('href', 'style.css')
+    css.attr('href', 'light.css')
     clicker.html('dark.');
 }
+
+$(".ball_tool_tip").hover(
+    function() {
+        const text = $("#tool_text");
+        text.attr('style', 'width: 0%!important;position: relative;display: initial;')
+    }, function() {
+        const text = $("#tool_text");
+        text.attr('style', 'width: 0%!important;position: relative;display: none;')
+    }
+)
