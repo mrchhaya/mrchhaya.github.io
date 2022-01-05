@@ -1,8 +1,8 @@
 .bg-color{
-    background-color: #FAF9F9!important;
+    background-color: #EDE9E9!important;
 }
 .accent1{
-    color: #E9C46A!important;
+    color: #6E44FF!important;
 }
 .accent2{
     color: #2A9D8F;
@@ -119,7 +119,7 @@ a:hover{
     cursor: pointer;
 }
 .fa {
-    font-size: 35px;
+    font-size: 25px;
     padding-left: 5px;
     padding-right: 5px;
 }

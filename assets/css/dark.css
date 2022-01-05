@@ -2,7 +2,7 @@
     background-color: #2b2d42!important;
 }
 .accent1{
-    color: #E9C46A!important;
+    color: #D6EEFF!important;
 }
 .accent2{
     color: #2A9D8F;
@@ -57,7 +57,7 @@ body{
 }
 .smol{
     font-size: larger;
-    color: white!important;
+    /* color: white!important; */
 }
 .w{
     margin: 3em auto;
@@ -127,7 +127,7 @@ a:hover{
 }
 
 .fa {
-    font-size: 35px;
+    font-size: 25px;
     padding-left: 5px;
     padding-right: 5px;
 }
