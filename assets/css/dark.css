@@ -107,7 +107,7 @@ body {
 }
 
 #lessmargin {
-    margin-bottom: .3em;
+    margin-bottom: 0em;
     text-align: center;
     /* font-weight: ; */
 }
