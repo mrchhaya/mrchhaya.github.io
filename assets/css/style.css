@@ -35,9 +35,12 @@ body {
     left: -40px;
     top: 75px;
     border: .5px solid #d0d7de;
-    box-shadow: 1px 1px 5px #d0d7de;
+    /* box-shadow: 1px 1px 5px #d0d7de; */
     text-align: center;
+    color: black;
+    margin: auto;
 }
+
 
 /* .ball_tool_tip:hover{
     height: 30px;
@@ -54,18 +57,18 @@ body {
 /* box-shadow: 1px 1px 5px #d0d7de;
     text-align: left; }
     */
-
+/* 
 #ball_tool_text {
     position: relative;
     top: 2px;
     left: 0.5px;
     right: 0.5px;
     width: fit-content;
-}
+} */
 
-#tool_text {
+/* #tool_text {
     display: none;
-}
+} */
 
 .smol {
     font-size: larger;

@@ -38,6 +38,7 @@ body {
     /* box-shadow: 1px 1px 5px #d0d7de; */
     text-align: center;
     color: black;
+    margin: auto;
 }
 
 /* .ball_tool_tip:hover{
@@ -142,11 +143,11 @@ a:hover {
     cursor: pointer;
 }
 
-.tooltip-inner {
+/* .tooltip-inner {
     color: #000 !important;
     background-color: white !important;
     opacity: 1 !important;
-}
+} */
 
 .fa {
     font-size: 25px;
